@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alery/CLionProjects/c_tensorflow/use_pb.c
+stdlib.h
+-
+stdio.h
+-
+tensorflow/c/c_api.h
+-
+unistd.h
+-
+assert.h
+-
+
+/home/alery/libtensorflow/include/tensorflow/c/c_api.h
+stddef.h
+-
+stdint.h
+-
+

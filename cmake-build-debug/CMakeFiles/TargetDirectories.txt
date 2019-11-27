@@ -1,0 +1,3 @@
+/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles/c_tensorflow.dir
+/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles/edit_cache.dir

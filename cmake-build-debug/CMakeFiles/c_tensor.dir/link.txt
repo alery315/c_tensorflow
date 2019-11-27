@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/c_tensor.dir/use_pb.c.o  -o c_tensor  -L/home/alery/libtensorflow/lib -Wl,-rpath,/home/alery/libtensorflow/lib -ltensorflow -ltensorflow 
