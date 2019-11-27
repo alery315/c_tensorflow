@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_tensorflow.dir/use_pb.c.o"
+  "CMakeFiles/c_tensorflow.dir/use_pb_file.c.o"
   "c_tensorflow.pdb"
   "c_tensorflow"
 )

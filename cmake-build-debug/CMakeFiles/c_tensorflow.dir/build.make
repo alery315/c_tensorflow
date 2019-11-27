@@ -57,27 +57,27 @@ include CMakeFiles/c_tensorflow.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c_tensorflow.dir/flags.make
 
-CMakeFiles/c_tensorflow.dir/use_pb.c.o: CMakeFiles/c_tensorflow.dir/flags.make
-CMakeFiles/c_tensorflow.dir/use_pb.c.o: ../use_pb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_tensorflow.dir/use_pb.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_tensorflow.dir/use_pb.c.o   -c /home/alery/CLionProjects/c_tensorflow/use_pb.c
+CMakeFiles/c_tensorflow.dir/use_pb_file.c.o: CMakeFiles/c_tensorflow.dir/flags.make
+CMakeFiles/c_tensorflow.dir/use_pb_file.c.o: ../use_pb_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_tensorflow.dir/use_pb_file.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_tensorflow.dir/use_pb_file.c.o   -c /home/alery/CLionProjects/c_tensorflow/use_pb_file.c
 
-CMakeFiles/c_tensorflow.dir/use_pb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_tensorflow.dir/use_pb.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alery/CLionProjects/c_tensorflow/use_pb.c > CMakeFiles/c_tensorflow.dir/use_pb.c.i
+CMakeFiles/c_tensorflow.dir/use_pb_file.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_tensorflow.dir/use_pb_file.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alery/CLionProjects/c_tensorflow/use_pb_file.c > CMakeFiles/c_tensorflow.dir/use_pb_file.c.i
 
-CMakeFiles/c_tensorflow.dir/use_pb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_tensorflow.dir/use_pb.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alery/CLionProjects/c_tensorflow/use_pb.c -o CMakeFiles/c_tensorflow.dir/use_pb.c.s
+CMakeFiles/c_tensorflow.dir/use_pb_file.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_tensorflow.dir/use_pb_file.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alery/CLionProjects/c_tensorflow/use_pb_file.c -o CMakeFiles/c_tensorflow.dir/use_pb_file.c.s
 
 # Object files for target c_tensorflow
 c_tensorflow_OBJECTS = \
-"CMakeFiles/c_tensorflow.dir/use_pb.c.o"
+"CMakeFiles/c_tensorflow.dir/use_pb_file.c.o"
 
 # External object files for target c_tensorflow
 c_tensorflow_EXTERNAL_OBJECTS =
 
-c_tensorflow: CMakeFiles/c_tensorflow.dir/use_pb.c.o
+c_tensorflow: CMakeFiles/c_tensorflow.dir/use_pb_file.c.o
 c_tensorflow: CMakeFiles/c_tensorflow.dir/build.make
 c_tensorflow: CMakeFiles/c_tensorflow.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c_tensorflow"

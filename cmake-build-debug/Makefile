@@ -123,32 +123,32 @@ c_tensorflow/fast:
 	$(MAKE) -f CMakeFiles/c_tensorflow.dir/build.make CMakeFiles/c_tensorflow.dir/build
 .PHONY : c_tensorflow/fast
 
-use_pb.o: use_pb.c.o
+use_pb_file.o: use_pb_file.c.o
 
-.PHONY : use_pb.o
+.PHONY : use_pb_file.o
 
 # target to build an object file
-use_pb.c.o:
-	$(MAKE) -f CMakeFiles/c_tensorflow.dir/build.make CMakeFiles/c_tensorflow.dir/use_pb.c.o
-.PHONY : use_pb.c.o
+use_pb_file.c.o:
+	$(MAKE) -f CMakeFiles/c_tensorflow.dir/build.make CMakeFiles/c_tensorflow.dir/use_pb_file.c.o
+.PHONY : use_pb_file.c.o
 
-use_pb.i: use_pb.c.i
+use_pb_file.i: use_pb_file.c.i
 
-.PHONY : use_pb.i
+.PHONY : use_pb_file.i
 
 # target to preprocess a source file
-use_pb.c.i:
-	$(MAKE) -f CMakeFiles/c_tensorflow.dir/build.make CMakeFiles/c_tensorflow.dir/use_pb.c.i
-.PHONY : use_pb.c.i
+use_pb_file.c.i:
+	$(MAKE) -f CMakeFiles/c_tensorflow.dir/build.make CMakeFiles/c_tensorflow.dir/use_pb_file.c.i
+.PHONY : use_pb_file.c.i
 
-use_pb.s: use_pb.c.s
+use_pb_file.s: use_pb_file.c.s
 
-.PHONY : use_pb.s
+.PHONY : use_pb_file.s
 
 # target to generate assembly for a file
-use_pb.c.s:
-	$(MAKE) -f CMakeFiles/c_tensorflow.dir/build.make CMakeFiles/c_tensorflow.dir/use_pb.c.s
-.PHONY : use_pb.c.s
+use_pb_file.c.s:
+	$(MAKE) -f CMakeFiles/c_tensorflow.dir/build.make CMakeFiles/c_tensorflow.dir/use_pb_file.c.s
+.PHONY : use_pb_file.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... c_tensorflow"
 	@echo "... edit_cache"
-	@echo "... use_pb.o"
-	@echo "... use_pb.i"
-	@echo "... use_pb.s"
+	@echo "... use_pb_file.o"
+	@echo "... use_pb_file.i"
+	@echo "... use_pb_file.s"
 .PHONY : help
 
 

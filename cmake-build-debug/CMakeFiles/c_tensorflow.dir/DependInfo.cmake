@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/alery/CLionProjects/c_tensorflow/use_pb.c" "/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles/c_tensorflow.dir/use_pb.c.o"
+  "/home/alery/CLionProjects/c_tensorflow/use_pb_file.c" "/home/alery/CLionProjects/c_tensorflow/cmake-build-debug/CMakeFiles/c_tensorflow.dir/use_pb_file.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

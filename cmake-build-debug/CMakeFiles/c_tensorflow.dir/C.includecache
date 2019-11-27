@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alery/CLionProjects/c_tensorflow/use_pb.c
+/home/alery/CLionProjects/c_tensorflow/use_tensorflow.c
 stdlib.h
 -
 stdio.h
