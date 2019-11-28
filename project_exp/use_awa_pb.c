@@ -36,14 +36,14 @@ TF_Output *outputs;
 TF_Tensor *output_values;
 
 // input data
-int n_dims = 3;
-int64_t in_dims[] = {1, 2, 3};
-int input_dims = 2 * 3;
-int out_put_dim = 2 * 3;
+int n_dims = 4;
+int64_t in_dims[] = {1, 8, 6, 8};
+int input_dims = 8 * 6 * 8;
+int out_put_dim = 8;
 
-const char *file = "../alery.pb";
-const char *input_op_name = "actor_inputs/x";
-const char *operation_name = "NN_output/op_to_store";
+const char *file = "../project_exp/nn_model_ep_2060.pb";
+const char *input_op_name = "Placeholder";
+const char *operation_name = "main/mul";
 
 
 TF_Buffer *read_file(const char *file);
@@ -73,7 +73,7 @@ main(int argc, char *argv[]) {
     double total_time;
     start = clock();
 
-    for (int i = 0; i < 9; ++i) {
+    for (int i = 1; i < 20; ++i) {
         /* this step reassign is necessary */
         float *values_p = malloc(sizeof(float) * input_dims);
         for (int j = 0; j < input_dims; ++j) {

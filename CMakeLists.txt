@@ -10,7 +10,7 @@ include_directories(${INC_DIR})
 link_directories(${LINK_DIR})
 link_libraries(tensorflow)
 
-add_executable(c_tensorflow use_pb_file.c)
+add_executable(c_tensorflow project_exp/use_awa_pb.c)
 
 target_link_libraries(c_tensorflow tensorflow)
 

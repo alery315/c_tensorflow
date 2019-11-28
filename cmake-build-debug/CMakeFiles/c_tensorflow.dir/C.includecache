@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alery/CLionProjects/c_tensorflow/use_pb_file.c
+/home/alery/CLionProjects/c_tensorflow/project_exp/use_awa_pb.c
 stdlib.h
 -
 stdio.h
@@ -14,8 +14,6 @@ stdio.h
 tensorflow/c/c_api.h
 -
 unistd.h
--
-assert.h
 -
 time.h
 -

@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/c_tensorflow.dir/use_pb_file.c.o  -o c_tensorflow  -L/home/alery/libtensorflow/lib -Wl,-rpath,/home/alery/libtensorflow/lib -ltensorflow -ltensorflow 
+/usr/bin/cc -g   CMakeFiles/c_tensorflow.dir/project_exp/use_awa_pb.c.o  -o c_tensorflow  -L/home/alery/libtensorflow/lib -Wl,-rpath,/home/alery/libtensorflow/lib -ltensorflow -ltensorflow 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alery/CLionProjects/c_tensorflow/use_pb_file.c">
+		<Unit filename="/home/alery/CLionProjects/c_tensorflow/project_exp/use_awa_pb.c">
 			<Option target="c_tensorflow"/>
 		</Unit>
 		<Unit filename="/home/alery/CLionProjects/c_tensorflow/CMakeLists.txt">
